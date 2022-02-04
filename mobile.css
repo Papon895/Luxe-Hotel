@@ -1,0 +1,298 @@
+/*address bar*/
+.address-bar {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  justify-content: center;
+  height: 8rem;
+}
+.address-bar .scl-icon {
+  padding-top: 1.5rem;
+}
+.address-bar .numbr {
+  width: 90%;
+  margin: 0 auto;
+}
+.address-bar .numbr> p {
+  padding-right: 0;
+}
+.address-bar .numbr p:first-child {
+  padding-right: 2.5rem;
+}
+/*logo section*/
+.logo-sec {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.logo-sec .book-btn a {
+  display: none;
+}
+.logo img {
+  width: 8rem;
+}
+.logo-sec .menu {
+  width: 100%;
+  left: 0;
+}
+
+    /*banner section  */
+.banner-sec> p {
+  font-size: 1.4rem;
+  color: #e2e1e1;
+}
+.banner-sec> h1 {
+  font-size: 3.8rem;
+  color:rgb(247,247,247);
+  letter-spacing: 1px;
+}
+.banner-sec> a {
+  display: inline-block;
+  position: static;
+  margin-top: 3.5rem;
+}
+.booking-area-mobile {
+  width: 92%;
+  margin: 2rem auto;
+  text-align: center;
+  color: white;
+  display: block;
+  overflow: hidden;
+}
+.booking-area-mobile .check3 .fas {
+  font-size: 1.43rem;
+}
+.booking-area-mobile .check3 {
+  position: relative;
+  z-index: -1;
+}
+.check1,.check2,.check3 {
+  padding: 3.5rem 0 1.5rem 1.5rem;
+}
+.check3-span {
+  right: 22%;
+  top: 48%;
+}
+.booking-area-mobile .book-now-btn {
+  height: 14.2rem;
+  transition: 0.5s;
+}
+.booking-area-mobile .book-now-btn:hover {
+  background-color: rgb(183,152,120);
+}
+.book-now-btn> a {
+  font-size: 1.4rem;
+}
+.booking-area-mobile .fas {
+  color: rgb(195,195,195);
+  margin-left: 0.5rem;
+}
+.booking-area {
+  display: none;
+}
+.booking-area .hr2 {
+  display: none;
+}
+
+
+.booking-area-mobile .check1,.check2,.check3,.book-now-btn {
+  width: 50%;
+  float: left;
+}
+.booking-area-mobile .check1 {
+  border-right: 0.5px solid #727171;
+}
+.booking-area-mobile .check3 {
+  border-top: 0.5px solid #727171;
+}
+.check1,.check2,.check3 {
+  background-color: rgba(0,0,0,0.85);
+}
+
+    /*section 2   */
+#section2 {
+  width: 92vw;
+  margin: 11rem auto 5rem auto;
+}
+#section2 .text-area,.img-area {
+  width: 100%;
+}
+.learn-more {
+  font-size: 1.2rem;
+}
+
+#section2 p{
+  font-size: 1.4rem;
+}
+#section2 h1 {
+  font-size: 5.4rem;
+}
+
+    /*--section 3 --*/
+#section3 {
+  width: 92vw;
+  margin: 6rem auto 5rem auto;
+}
+#section3 h1 {
+  font-size: 3.4rem;
+}
+.suite {
+  height: 17rem;
+}
+.suite-text {
+  bottom: 2rem;
+  left: 1.5rem;
+}
+.suite-text h3 {
+  font-size: 1.55rem;
+}
+.suite-text p {
+  font-size: 0.94rem;
+}
+.room .room-text {
+  bottom: 2rem;
+  left: 1.5rem;
+}
+#section3 .sec3 h3 {
+  font-size: 1.55rem;
+}
+#section3 .sec3 p {
+  font-size: 0.94rem;
+}
+#section3 .sec3-btn {
+  margin-top: -1.5rem;
+}
+#section3 .room {
+  width: 100%;
+  margin-bottom: 3.5rem;
+  height: 17rem;
+}
+#section3 .room img {
+  height: 100%;
+}
+    /*--section 4--*/
+#section4 {
+  width: 92vw;
+  margin: 6rem auto 3rem auto;
+}
+#section4 h1 {
+  font-size: 3.4rem;
+}
+#section4 .service1 {
+  width: 15rem;
+  margin-bottom: 3rem;
+}
+.service1 h5 {
+  font-size: 1.4rem;
+}
+.service1 p {
+  font-size: 1.35rem;
+}
+.service1 img {
+  width: 7rem;
+  height: 6rem;
+}
+
+    /*==service5 ==*/
+#section5 {
+  margin-bottom: 5rem;
+  padding: 17rem 3rem;
+  background-attachment: scroll;
+  background-position: left;
+}    
+#section5 h1 {
+  font-size: 5rem;
+}
+#section5 p {
+  font-size: 1.4rem;
+}
+
+    /*==section6 ==*/
+#section6 {
+  width: 92vw;
+  margin: 0 auto 2rem auto;
+}
+#section6 .card {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+#section6 h5 {
+  font-size: 2rem;
+  margin: 0.7rem 0;
+}
+#section6 p {
+  font-size: 1.5rem;
+}
+#section6 .card img:last-child {
+  width: 15rem;
+  padding: 4rem 0 12rem 0;
+}
+      /*--section 7--*/
+#section7 {
+  margin-bottom: 5rem;
+  background-attachment: scroll;
+  padding: 12rem 4rem;
+}
+#section7 .text-area2> h1 {
+  font-size: 5rem;
+  padding: 1.5rem 0;
+}
+#section7 .text-area2> p {
+  font-size: 1.6rem;
+}
+#section7 .offer-time {
+  width: 100%;
+}
+#section7 .time {
+  width: 47%;
+  margin-bottom: 1.5rem;
+  padding: 1rem 0 0.4rem 0;
+}
+#section7 .time h1 {
+  font-size: 3rem;
+}
+#section7 .time p {
+  font-size: 1.1rem;
+}
+
+      /*---section8--*/
+#section8 {
+  margin-bottom: 5rem;
+}  
+#section8 .artical-part {
+  width: 92vw;
+}
+#section8 .artical {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+      /*---footer area--*/
+#footer .footer-con {
+  width: 92vw;
+  height: 90rem;
+}
+#footer .part1,.part2 {
+  width: 100%;
+}
+#footer form {
+  position: absolute;
+  bottom: 12rem;
+}
+#footer form {
+  margin-top: 0;
+}
+#footer .part2 {
+  margin-top: -15rem;
+}
+#footer .part2 .contact {
+  margin-bottom: 4rem;
+}
+#footer form {
+  width: 92vw;
+}
+#footer .footer2 {
+  font-size: 1.2rem;
+  padding: 2rem 3rem;
+}
